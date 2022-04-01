@@ -1,0 +1,41 @@
+{
+  "name": "eleventy-plugin-podcast",
+  "version": "1.0.0",
+  "description": "Generate a podcast RSS feed from Eleventy data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --watch --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larryhudson/eleventy-plugin-podcast.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/larryhudson/eleventy-plugin-podcast/issues"
+  },
+  "homepage": "https://github.com/larryhudson/eleventy-plugin-podcast#readme",
+  "keywords": [
+    "eleventy",
+    "eleventy-plugin",
+    "podcast"
+  ],
+  "author": {
+    "name": "Larry Hudson",
+    "email": "larryhudson@hey.com",
+    "url": "https://github.com/larryhudson"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "lodash.merge": "^4.6.2",
+    "mp3-duration": "^1.1.0",
+    "netlify-plugin-cache": "^1.0.3",
+    "podcast": "^2.0.0"
+  }
+}
